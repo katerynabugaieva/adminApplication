@@ -4,9 +4,9 @@
 Meteor.methods({
 
     reset: function () {
-
         Meteor.users.remove({});
         Customers.remove({})
+        Salary.remove({});
         console.log("reset!!!");
       //  console.log(Meteor.users.find().count());
 
@@ -34,9 +34,8 @@ Meteor.methods({
                     password: '123456',
                 });
             }
-
-         //   console.log(userId);
         }
+   Meteor.call('addFirstUser')
     }
     ,
 
@@ -47,10 +46,18 @@ Meteor.methods({
 
 
 resetSalary: function(){
-        Salary.remove({})
-}
+        Salary.remove({});
+},
 
+addFirstUser: function(){
+        console.log('i add first user with nothing')
+Salary.insert({
+    number: 0
+})
+}
 
 
 })
 ;
+
+

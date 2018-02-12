@@ -1,6 +1,12 @@
+
+
 Template.admin.events({
     'click #submitSalary': function(){
-        let userSalary = {};
+        var userSalary = {};
+        
+        var existCollection = Salary.find().fetch()
+
+        userSalary.number = ++existCollection[existCollection.length-1].number;
         userSalary.date = $('#iDate').val();
 
         userSalary.curs840 = $('#i840Curs').val();
@@ -16,7 +22,7 @@ Template.admin.events({
         userSalary.dollToEurCurs = (parseFloat(userSalary.curs978) / parseFloat(userSalary.curs840)).toFixed(4);
         userSalary.dollToEurSalary =  (userSalary.salary840 / userSalary.dollToEurCurs).toFixed(2);
 
-       let curr = 1;
+       var curr = 1;
         if($('#iCurrency').val() === '980'){
             curr = 1;
         } else if($('#iCurrency').val() === '978'){
@@ -33,3 +39,4 @@ Template.admin.events({
         console.log(userSalary)
     }
 });
+
