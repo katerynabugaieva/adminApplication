@@ -6,42 +6,16 @@
 
     <h1>Hello</h1>
 
-    <div>
-        <label>date</label>
-        <input type="text" id="iDate" required/>
-
-        <br/>
-        <label>курс доллара</label>
-        <input id="i840Curs" required pattern="\d+(\.\d{2})?"/>
-        <label>курс евро</label>
-        <input id="i978Curs" required pattern="\d+(\.\d{2})?"/>
-
-        <br/>
-        <label>фамилия</label>
-        <input type="text" id="iName" required/>
-
-        <br/>
-        <label>sum in $</label>
-        <input type="text" id="i840Salary" required/>
-
-        <br/>
-        <label>card uah </label>
-        <input type="text" id="i980Card"/>
-
-        <br/>
-        <label>presalary</label>
-        <input type="text" id="iCash"/>
-        <label>presalary currency </label>
-        <input type="text" id="iCurrency"/>
-        <br/>
-
-        <label>salary cash euro</label>
-        <input type="text" id="i978Cash"/>
-        <br/>
-        <input type="submit" id='submitSalary' value="Submit">
-    </div>
+    {{>insertByAdmin}}
 
     <div class="some-div">------------------------------------------------------------</div>
 
+    {{>updateByAdmin}}
+
+    <div class="some-div">------------------------------------------------------------</div>
+
+    {{>deleteByAdmin}}
+
+    <div class="some-div">------------------------------------------------------------</div>
 {{>statView}}
 </template>

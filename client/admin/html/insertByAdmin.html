@@ -1,0 +1,38 @@
+<template name="insertByAdmin">
+    <div id="insertDiv">
+        <h4>Добавить запись</h4>
+        <label>Дата</label>
+        <input type="text" id="iDate" required/>
+
+        <br/>
+        <label>курс доллара</label>
+        <input id="i840Curs" required pattern="\d+(\.\d{2})?" />
+        <label>курс евро</label>
+        <input id="i978Curs" required pattern="\d+(\.\d{2})?" />
+
+        <br/>
+        <label>ФИО</label>
+        <input type="text" id="iName" required />
+
+        <br/>
+        <label>Сумма в долларах</label>
+        <input type="text" id="i840Salary" required/>
+
+        <br/>
+        <label>На карточку</label>
+        <input type="text" id="i980Card" />
+
+        <br/>
+        <label>Аванс</label>
+        <input type="text" id="iCash" />
+        <label>Валюта аванса</label>
+        <input type="text" id="iCurrency"/>
+        <br/>
+
+        <label>К выдаче в евро</label>
+        <input type="text" id="i978Cash" />
+        <br/>
+        <input type="submit" id='submitSalary' value="Записать">
+    </div>
+    <br/>
+</template>

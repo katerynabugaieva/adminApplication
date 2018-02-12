@@ -1,0 +1,15 @@
+<template name="deleteByAdmin">
+    <div id="deleteNumDiv">
+        <h4>Удалить запись</h4>
+
+        <input type="text" id='dataForDelete' placeholder="Введите номер записи">
+        <input type="submit" id="checkNumDel" value="find license">
+        <label id="isCorrectDel"></label>
+        <div id="divA" hidden>
+            <input type="checkbox" id="acceptCheckboxDel">
+            <label>Я подтверждаю удаление записи</label>
+            <input type="submit" id='submitDelete' value="Delete license" disabled class="inputSubmit">
+        </div>
+    </div>
+    <br/>
+</template>

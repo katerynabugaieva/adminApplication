@@ -1,0 +1,51 @@
+<template name="updateByAdmin">
+    <div id="updateNumDiv">
+        <h4>Редактировать запись</h4>
+
+        <input type="text" id='dataForUpdate' placeholder="Введите номер записи">
+        <input type="submit" id="checkNumUp" value="Искать запись">
+        <label id="isCorrectUp"></label>
+
+        <div id="divUpdate" hidden>
+            <label>Номер записи</label>
+            <input type="text" id="iNumUp"/>
+            <label id="existData" hidden>Запись с таким номером существует</label>
+<br/>
+            <label>Дата</label>
+            <input type="text" id="iDateUp"/>
+
+            <br/>
+            <label>курс доллара</label>
+            <input id="i840CursUp" pattern="\d+(\.\d{2})?"/>
+            <label>курс евро</label>
+            <input id="i978CursUp" pattern="\d+(\.\d{2})?"/>
+
+            <br/>
+            <label>ФИО</label>
+            <input type="text" id="iNameUp"/>
+
+            <br/>
+            <label>Сумма в долларах</label>
+            <input type="text" id="i840SalaryUp"/>
+
+            <br/>
+            <label>На карточку</label>
+            <input type="text" id="i980CardUp"/>
+
+            <br/>
+            <label>Аванс</label>
+            <input type="text" id="iCashUp"/>
+            <label>Валюта аванса</label>
+            <input type="text" id="iCurrencyUp"/>
+            <br/>
+
+            <label>К выдаче в евро</label>
+            <input type="text" id="i978CashUp"/>
+            <br/>
+
+
+            <input type="submit" id='submitUpdate' value="Редактировать запись" class="inputSubmit">
+        </div>
+    </div>
+    <br/>
+</template>
