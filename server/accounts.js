@@ -1,10 +1,7 @@
-/**
- * Created by 1000geeks on 24.04.17.
- */
 Accounts.onCreateUser(function (options, user) {
     user.profile = {'roles': ['user']};
     Customers.insert({
-        id: user._id,
+        //id: user._id,
         username: user.emails[0].address.split('@')[0],
         email: user.emails[0].address,
         role: 'user'

@@ -2,8 +2,12 @@
  * Created by 1000geeks on 30.01.17.
  */
 
+// Meteor.publish('customers', function() {
+//     return Customers.find({id: this.userId});
+// });
+
 Meteor.publish('customers', function() {
-    return Customers.find({id: this.userId});
+    return Customers.find();
 });
 
 Meteor.publish('users', function() {
@@ -12,4 +16,9 @@ Meteor.publish('users', function() {
 Meteor.publish('salary', function() {
     return Salary.find();
 });
+
+Meteor.publish('workers', function() {
+    return Workers.find();
+});
+
 

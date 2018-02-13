@@ -8,11 +8,10 @@ Meteor.methods({
         Customers.remove({})
         Salary.remove({});
         console.log("reset!!!");
-      //  console.log(Meteor.users.find().count());
 
         if (Meteor.isServer) {
-            if (Meteor.users.find().count() === 0 && Customers.find().count() === 0) {
-
+          //  if (Meteor.users.find().count() === 0 && Customers.find().count() === 0) {
+            if (Meteor.users.find().count()){
                 userId = Accounts.createUser({
                     email: 'sonnensmile@gmail.com',
                     password: '194657535',
@@ -54,8 +53,14 @@ addFirstUser: function(){
 Salary.insert({
     number: 0
 })
+    Workers.insert({
+        number: 0
+    })
 }
-
+,
+    showCustomers: function(){
+        console.log(Customers.find().fetch())
+    }
 
 })
 ;
