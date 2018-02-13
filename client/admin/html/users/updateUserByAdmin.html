@@ -1,3 +1,55 @@
 <template name="updateUserByAdmin">
-    
+    <div class="col-md-6" id="updateNumUserDiv">
+        <h4>Редактировать запись</h4>
+
+        <form role="form" style="margin-top:0.2em;">
+            <div class="form-group">
+                <input type="number" class="form-control" id="userForUpdate" placeholder="Введите номер записи" required>
+            </div>
+
+            <div class="form-group">
+                <button type="submit" id="checkNumUserUp" class="btn btn-default pull-left">Найти запись
+                </button>
+            </div>
+
+            <label id="isCorrectUserUp"></label>
+            <div id="divUserUpdate" hidden>
+                <div class="form-group">
+                    <input type="number" class="form-control" id="iNumUserUp" placeholder="Номер записи">
+                </div>
+
+                <div class="form-group">
+                    <input type="email" class="form-control" id="iEmailUserUp" placeholder="email">
+                </div>
+
+                <div class="form-group">
+                    <input type="text" class="form-control" id="iSurnameUserUp" placeholder="Фамилия">
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control" id="iNameUserUp" placeholder="Имя">
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control" id="iMiddleNameUserUp" placeholder="Отчество">
+                </div>
+
+                <div class="form-group">
+                    <label>Дата рождения</label>
+                    <input type="date" class="form-control" id="iDateOfBirthUp" placeholder="Дата рождения">
+                </div>
+                <div class="form-group">
+                    <label>Дата приема на работу</label>
+                    <input type="date" class="form-control" id="iDateStartUp" placeholder="Дата начала">
+                </div>
+
+                <div class="form-group">
+                    <input type="text" class="form-control" id="iCommentUserUp" placeholder="Комментарий">
+                </div>
+                <div class="form-group">
+                    <button type="submit" id="submitUserUp" class="btn btn-default pull-right">
+                        Записать
+                    </button>
+                </div>
+            </div>
+        </form>
+    </div>
 </template>
