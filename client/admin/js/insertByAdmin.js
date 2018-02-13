@@ -35,7 +35,6 @@ Template.insertByAdmin.events({
         console.log(userSalary)
 
         Salary.insert(userSalary);
-
     }
 
 });
