@@ -1,17 +1,24 @@
 <template name="admin">
-    <br/>
-    <br/>
-    <br/>
-    <br/>
+    <section class="section-divider textdivider divider7">
+        <div class="container">
+            <br><br><br><br><br><br><br><br><br><br><br><br>
+        </div><!-- container -->
+    </section><!-- section -->
 
-    <button value="Зарплата" id="bSalary">Зарплата</button>
-    <button value="Пользователи" id="bUsers">Пользователи</button>
+    <div id="greywrap">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2" style="margin-top:-0.5em;">
+                <button value="Зарплата" id="bSalary">Зарплата</button>
+                <button value="Пользователи" id="bUsers">Пользователи</button>
 
-    <div id="divSalary" hidden>
-        {{>salaryView}}
-    </div>
+                <div id="divSalary" hidden>
+                    {{>salaryView}}
+                </div>
 
-    <div id="divUsers" hidden>
-        {{>usersView}}
+                <div id="divUsers" hidden>
+                    {{>usersView}}
+                </div>
+            </div>
+        </div>
     </div>
 </template>

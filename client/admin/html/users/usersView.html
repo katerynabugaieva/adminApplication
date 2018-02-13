@@ -1,6 +1,15 @@
 <template name="usersView">
     <br/>
-    {{>addUserByAdmin}}
-    <div class="some-div">------------------------------------------------------------</div>
-    {{>userViewTable}}
+    <div class="col-lg-8 col-lg-offset-2" style="margin-top:-0.5em;">
+        {{>addUserByAdmin}}
+    </div>
+    <div class="col-lg-8 col-lg-offset-2" style="margin-top:-0.5em;">
+        {{>updateUserByAdmin}}
+    </div>
+    <div class="col-lg-8 col-lg-offset-2" style="margin-top:-0.5em;">
+        {{>deleteUserByAdmin}}
+    </div>
+    <div class="col-lg-8 col-lg-offset-2" style="margin-top:-0.5em;">
+        {{>userViewTable}}
+    </div>
 </template>

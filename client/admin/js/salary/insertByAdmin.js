@@ -1,5 +1,8 @@
 Template.insertByAdmin.events({
-    'click #submitSalary': function(){
+    'click #submitSalary': function(e){
+        e.preventDefault();
+        e.stopPropagation();
+
         var userSalary = {};
 
         var existCollection = Salary.find().fetch()

@@ -1,5 +1,7 @@
 Template.updateByAdmin.events({
-    'click #checkNumUp': function () {
+    'click #checkNumUp': function (e) {
+        e.preventDefault();
+        e.stopPropagation();
         var data = parseInt($('#dataForUpdate').val());
         //  console.log(data)
         var currentLis;
@@ -13,12 +15,16 @@ Template.updateByAdmin.events({
             $('#isCorrectUp').text('запись не найдена');
             $('#divUpdate').hide();
         }
+        return false;
     }
 
 
     ,
 
-    'click #submitUpdate': function () {
+    'click #submitSalaryUp': function (e) {
+        e.preventDefault();
+        e.stopPropagation();
+        console.log('in')
         var data = parseInt($('#dataForUpdate').val());
         var currentLis;
         currentLis = Salary.findOne({number: data});
@@ -130,6 +136,7 @@ console.log(userSalary)
 
 
         }
+        return false;
     }
     ,
 

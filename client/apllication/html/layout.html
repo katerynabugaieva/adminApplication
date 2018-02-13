@@ -1,32 +1,46 @@
 <template name="layout">
     <div id="navbar-main">
-        <!--<div class="navbar navbar-inverse navbar-fixed-top">-->
+        <div class="navbar navbar-inverse navbar-fixed-top">
             <div class="container-fluid" id="top-main-bar">
+                <div class="navbar-header text-center">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span style="font-size:30px; color:#f7be23;"><img src="./logo_small.png"></span>
+                    </button>
+                    <a class="navbar-brand hidden-xs hidden-sm" href="{{pathFor 'admin'}}"><span><img
+                            src="./logo_small.png"></span></a>
+                </div>
 
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
-                        <li> {{>atNavButton}}</li>
-                        <li>
-                            <h1>Hello, {{name}}</h1>
-                        </li>
 
-                        {{#if isAdmin}}
-                            <li>
-                                <a href="{{pathFor 'admin'}}">admin</a>
-
-                            </li>
-                            <!--<li>-->
-                                <!--<a href="{{pathFor 'container'}}">post</a>-->
-                            <!--</li>-->
-                        {{/if}}
                     </ul>
+
                 </div>
+
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="who-is-this-nav">
+                        <h1>Hello, {{name}}     </h1>
+                    </li>
+                    {{#if isAdmin}}
+                        <li>
+                            <a href="{{pathFor 'admin'}}">admin</a>
+
+                        </li>
+                        <!--<li>-->
+                        <!--<a href="{{pathFor 'container'}}">post</a>-->
+                        <!--</li>-->
+                    {{/if}}
+                    <li>
+                        {{> atNavButton}}
+                    </li>
+                </ul>
             </div>
-        <!--</div>-->
+        </div>
     </div>
 
 
     <div id="main" class="row-fluid">
+        <br/>
         {{> yield}}
     </div>
 

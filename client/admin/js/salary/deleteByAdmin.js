@@ -1,6 +1,8 @@
 Template.deleteByAdmin.events({
 
-    'click #checkNumDel': function () {
+    'click #checkNumDel': function (e) {
+        // e.preventDefault();
+        // e.stopPropagation()
         var data = parseInt($('#dataForDelete').val());
         console.log(data)
         var currentLis;
@@ -14,21 +16,29 @@ Template.deleteByAdmin.events({
             $('#isCorrectDel').text('data is not found');
             $('#divA').hide();
         }
+        return false;
+
     }
 
     ,
-    'change #acceptCheckboxDel': function () {
+    'change #acceptCheckboxDel': function (e) {
+        // e.preventDefault();
+        // e.stopPropagation()
         if ($("#acceptCheckboxDel").prop("checked")) {
             $('#submitDelete').attr('disabled', false);
         }
         else {
             $('#submitDelete').attr('disabled', true);
         }
+        return false;
+
     }
 
     ,
 
-    'click #submitDelete': function () {
+    'click #submitDelete': function (e) {
+        // e.preventDefault();
+        // e.stopPropagation()
         var data = parseInt($('#dataForDelete').val());
         var currentLis;
 
@@ -37,7 +47,8 @@ Template.deleteByAdmin.events({
         if (currentLis) {
             Salary.remove(currentLis._id);
         }
+        return false;
+
     }
     ,
-
 });

@@ -1,35 +1,42 @@
 <template name="addUserByAdmin">
     <div id="insertUserDiv">
-        <h4>Добавить запись</h4>
-        <label>Введите почту</label>
-        <input type='text' id="iEmailUser"/>
-        <br/>
-        <label>Фамилия</label>
-        <input type='text' id="iSurnameUser">
-        <br/>
-        <label>Имя</label>
-        <input type='text' id="iNameUser">
-        <br/>
-        <label>Отчество</label>
-        <input type='text' id="iMiddleNameUser">
-        <br/>
+        <div class="col-md-6">
+            <form role="form" style="margin-top:0.2em;">
+                <h4>Добавить пользователя</h4>
 
-        <label>Дата рождения</label>
-        <input type='date' id="iDateOfBirth">
-        <br/>
+                <br style="clear:both">
+                <div class="form-group">
+                    <input type="email" class="form-control" id="iEmailUser" placeholder="email" required>
+                </div>
 
-        <label>Дата принятия на работу</label>
-        <input type='date' id="iDateStart">
-        <br/>
+                <div class="form-group">
+                    <input type="text" class="form-control" id="iSurnameUser" placeholder="Фамилия">
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control" id="iNameUser" placeholder="Имя">
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control" id="iMiddleNameUser" placeholder="Отчество">
+                </div>
 
-        <label>Комментарии</label>
-        <input type='text' id="iCommentUser">
-        <br/>
+                <div class="form-group">
+                    <label>Дата рождения</label>
+                    <input type="date" class="form-control" id="iDateOfBirth" placeholder="Дата рождения">
+                </div>
+                <div class="form-group">
+                    <label>Дата приема на работу</label>
+                    <input type="date" class="form-control" id="iDateStart" placeholder="Дата начала">
+                </div>
 
+                <div class="form-group">
+                    <input type="text" class="form-control" id="iCommentUser" placeholder="Комментарий">
+                </div>
 
-
-
-        <br/>
-        <input type="submit" id='submitUser' value="Записать">
+                <div class="form-group">
+                    <button type="submit" id="submitUser" class="btn btn-default pull-right">Записать
+                    </button>
+                </div>
+            </form>
+        </div>
     </div>
 </template>

@@ -1,15 +1,14 @@
 <template name="salaryView">
-    {{>insertByAdmin}}
-
-    <div class="some-div">------------------------------------------------------------</div>
-
-    {{>updateByAdmin}}
-
-    <div class="some-div">------------------------------------------------------------</div>
-
-    {{>deleteByAdmin}}
-
-    <div class="some-div">------------------------------------------------------------</div>
-    {{>statViewTable}}
-
+    <div class="col-lg-8 col-lg-offset-2" style="margin-top:-0.5em;">
+        {{>insertByAdmin}}
+    </div>
+    <div class="col-lg-8 col-lg-offset-2" style="margin-top:-0.5em;">
+        {{>updateByAdmin}}
+    </div>
+    <div class="col-lg-8 col-lg-offset-2" style="margin-top:-0.5em;">
+        {{>deleteByAdmin}}
+    </div>
+    <div class="col-lg-8 col-lg-offset-2" style="margin-top:-0.5em;">
+        {{>statViewTable}}
+    </div>
 </template>

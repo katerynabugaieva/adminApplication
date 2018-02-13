@@ -1,51 +1,61 @@
 <template name="updateByAdmin">
-    <div id="updateNumDiv">
+
+    <div class="col-md-6" id="updateNumDiv">
         <h4>Редактировать запись</h4>
 
-        <input type="text" id='dataForUpdate' placeholder="Введите номер записи">
-        <input type="submit" id="checkNumUp" value="Искать запись">
-        <label id="isCorrectUp"></label>
+        <form role="form" style="margin-top:0.2em;">
+            <div class="form-group">
+                <input type="number" class="form-control" id="dataForUpdate" name="dataForUpdate"
+                       placeholder="Введите номер записи" required>
+            </div>
 
-        <div id="divUpdate" hidden>
-            <label>Номер записи</label>
-            <input type="text" id="iNumUp"/>
-            <label id="existData" hidden>Запись с таким номером существует</label>
-<br/>
-            <label>Дата</label>
-            <input type="text" id="iDateUp"/>
+            <div class="form-group">
+                <button type="submit" id="checkNumUp" class="btn btn-default pull-left">Найти запись
+                </button>
+            </div>
 
-            <br/>
-            <label>курс доллара</label>
-            <input id="i840CursUp" pattern="\d+(\.\d{2})?"/>
-            <label>курс евро</label>
-            <input id="i978CursUp" pattern="\d+(\.\d{2})?"/>
+            <label id="isCorrectUp"></label>
 
-            <br/>
-            <label>ФИО</label>
-            <input type="text" id="iNameUp"/>
+            <div id="divUpdate" hidden>
+                <div class="form-group">
+                    <input type="number" class="form-control" id="iNumUp" placeholder="Номер записи">
+                </div>
+                <div class="form-group">
+                    <input type="date" class="form-control" id="iDateUp" placeholder="Дата">
+                </div>
+                <div class="form-group">
+                    <input type="number" step='any' class="form-control" id="i840CursUp" placeholder="курс доллара">
+                </div>
+                <div class="form-group">
+                    <input type="number" step='any' class="form-control" id="i978CursUp" placeholder="курс евро">
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control" id="iNameUp" placeholder="ФИО">
+                </div>
+                <div class="form-group">
+                    <input type="number" class="form-control" id="i840SalaryUp" placeholder="Сумма в долларах">
+                </div>
+                <div class="form-group">
+                    <input type="number" step='any' class="form-control" id="i980CardUp" placeholder="Переведено на карточку">
+                </div>
+                <div class="form-group">
+                    <input type="number" class="form-control" id="iCashUp" placeholder="Аванс">
+                </div>
+                <div class="form-group">
+                    <input type="number" class="form-control" id="iCurrencyUp" placeholder="Валюта аванса">
+                </div>
+                <div class="form-group">
+                    <input type="number" class="form-control" id="i978CashUp" placeholder="Евро к выдаче">
+                </div>
 
-            <br/>
-            <label>Сумма в долларах</label>
-            <input type="text" id="i840SalaryUp"/>
-
-            <br/>
-            <label>На карточку</label>
-            <input type="text" id="i980CardUp"/>
-
-            <br/>
-            <label>Аванс</label>
-            <input type="text" id="iCashUp"/>
-            <label>Валюта аванса</label>
-            <input type="text" id="iCurrencyUp"/>
-            <br/>
-
-            <label>К выдаче в евро</label>
-            <input type="text" id="i978CashUp"/>
-            <br/>
-
-
-            <input type="submit" id='submitUpdate' value="Редактировать запись" class="inputSubmit">
-        </div>
+                <div class="form-group">
+                    <button type="submit" id="submitSalaryUp" class="btn btn-default pull-right">
+                        Записать
+                    </button>
+                </div>
+            </div>
+        </form>
     </div>
+
     <br/>
 </template>

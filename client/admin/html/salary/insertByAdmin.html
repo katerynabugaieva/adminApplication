@@ -1,38 +1,51 @@
 <template name="insertByAdmin">
     <div id="insertDiv">
-        <h4>Добавить запись</h4>
-        <label>Дата</label>
-        <input type="text" id="iDate" required/>
+        <div class="col-md-6">
+            <form role="form" style="margin-top:0.2em;" >
+                <h4>Добавить запись</h4>
 
-        <br/>
-        <label>курс доллара</label>
-        <input id="i840Curs" required pattern="\d+(\.\d{2})?" />
-        <label>курс евро</label>
-        <input id="i978Curs" required pattern="\d+(\.\d{2})?" />
+                <br style="clear:both">
+                <div class="form-group">
+                    <input type="date" class="form-control" id="iDate" name="iDate" placeholder="Date" required>
+                </div>
 
-        <br/>
-        <label>ФИО</label>
-        <input type="text" id="iName" required />
-
-        <br/>
-        <label>Сумма в долларах</label>
-        <input type="text" id="i840Salary" required/>
-
-        <br/>
-        <label>На карточку</label>
-        <input type="text" id="i980Card" />
-
-        <br/>
-        <label>Аванс</label>
-        <input type="text" id="iCash" />
-        <label>Валюта аванса</label>
-        <input type="text" id="iCurrency"/>
-        <br/>
-
-        <label>К выдаче в евро</label>
-        <input type="text" id="i978Cash" />
-        <br/>
-        <input type="submit" id='submitSalary' value="Записать">
+                <div class="form-group">
+                    <input type="number" step='any' class="form-control" id="i840Curs" name="i840Curs"
+                           placeholder="курс доллара" required>
+                </div>
+                <div class="form-group">
+                    <input type="number" step='any' class="form-control" id="i978Curs" name="i978Curs"
+                           placeholder="курс евро" required>
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control" id="iName" name="iName" placeholder="ФИО" required>
+                </div>
+                <div class="form-group">
+                    <input type="number" class="form-control" id="i840Salary" name="i840Salary" placeholder="Сумма в долларах"
+                           required>
+                </div>
+                <div class="form-group">
+                    <input type="number" step='any' class="form-control" id="i980Card" name="i980Card"
+                           placeholder="Переведено на карточку">
+                </div>
+                <div class="form-group">
+                    <input type="number" class="form-control" id="iCash" name="iCash" placeholder="Аванс"
+                           required>
+                </div>
+                <div class="form-group">
+                    <input type="number" class="form-control" id="iCurrency" name="iCurrency" placeholder="Валюта аванса"
+                           required>
+                </div>
+                <div class="form-group">
+                    <input type="number" class="form-control" id="i978Cash" name="i978Cash" placeholder="Евро к выдаче"
+                           required>
+                </div>
+                <div class="form-group">
+                    <button type="submit" id="submitSalary" name="submitSalary" class="btn btn-default pull-right">Записать
+                    </button>
+                </div>
+            </form>
+        </div>
     </div>
     <br/>
 </template>

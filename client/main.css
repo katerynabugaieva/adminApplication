@@ -1,4 +1,172 @@
 /* CSS declarations go here */
-body{
-    margin: 1%;
+body {
+    background: #eee;
+    color: #666666;
+    margin-left: 5%;
+}
+
+h1{
+    color: white;
+}
+.navbar{
+    background: #cfdff0;
+}
+
+.navbar-fixed-bottom .dropdown .dropdown-menu {
+    top: auto;
+    bottom: 100%;
+    margin-bottom: 1px;
+}
+@media (min-width: 768px) {
+    .navbar-right .dropdown-menu {
+        right: 0;
+        left: auto;
+    }
+    .navbar-right .dropdown-menu-left {
+        right: auto;
+        left: 0;
+    }
+}
+
+
+
+
+svg {
+    width: 25%;
+}
+
+span {
+    font-size: 15px;
+}
+
+.some-div {
+    width: 500px;
+    height: 1px;
+    display: block;
+}
+
+button {
+    color: #222;
+}
+
+
+.button--size-s {
+    font-size: 14px;
+}
+
+/* line 443, main.scss */
+.button--size-m {
+    font-size: 16px;
+}
+
+/* line 447, main.scss */
+.button--size-l {
+    font-size: 18px;
+}
+
+/* line 451, main.scss */
+.button--text-medium {
+    font-weight: 500;
+}
+
+/* line 455, main.scss */
+.button--text-thick {
+    font-weight: 600;
+}
+
+/* line 459, main.scss */
+.button--round-s {
+    border-radius: 5px;
+}
+
+/* line 463, main.scss */
+.button--border-medium {
+    border: 2px solid;
+}
+
+/* line 467, main.scss */
+.button {
+    margin-top: 0;
+    padding: 0.75em 2em;
+    border: none;
+    background: none;
+    color: inherit;
+    vertical-align: middle;
+    position: relative;
+    z-index: 1;
+}
+
+/* line 476, main.scss */
+.button:focus {
+    outline: none;
+}
+
+/* line 479, main.scss */
+.button > span {
+    vertical-align: middle;
+}
+
+/* line 484, main.scss */
+.button--round-s.button--quidel::after {
+    border-radius: 3px;
+}
+
+/* line 488, main.scss */
+.button.button--aylen {
+    background: #66a8e1;
+    color: #37474f;
+    overflow: hidden;
+    -webkit-transition: color 0.3s;
+    transition: color 0.3s;
+}
+
+/* line 497, main.scss */
+.button--aylen.button--inverted {
+    background: none;
+    color: #fff;
+}
+
+/* line 501, main.scss */
+.button--aylen::before, .button--aylen::after {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    bottom: 100%;
+    left: 0;
+    z-index: -1;
+    -webkit-transition: -webkit-transform 0.3s;
+    transition: transform 0.3s;
+    -webkit-transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
+    transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
+}
+
+/* line 514, main.scss */
+.button--aylen::before {
+    background: #fff;
+    opacity: 0.25;
+}
+
+/* line 518, main.scss */
+.button--aylen::after {
+    background: #66a8e1;
+}
+
+/* line 521, main.scss */
+.button--aylen:hover {
+    color: #fff;
+}
+
+/* line 523, main.scss */
+.button--aylen:hover::before {
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+}
+
+/* line 527, main.scss */
+.button--aylen:hover::after {
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+    -webkit-transition-delay: 0.175s;
+    transition-delay: 0.175s;
 }
