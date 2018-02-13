@@ -4,18 +4,10 @@
     <br/>
     <br/>
 
-    <h1>Hello</h1>
+    <button value="Зарплата" id="bSalary">Зарплата</button>
+    <button value="Пользователи" id="bUsers">Пользователи</button>
 
-    {{>insertByAdmin}}
-
-    <div class="some-div">------------------------------------------------------------</div>
-
-    {{>updateByAdmin}}
-
-    <div class="some-div">------------------------------------------------------------</div>
-
-    {{>deleteByAdmin}}
-
-    <div class="some-div">------------------------------------------------------------</div>
-{{>statView}}
+    <div id="divSalary" hidden>
+        {{>salaryView}}
+    </div>
 </template>
