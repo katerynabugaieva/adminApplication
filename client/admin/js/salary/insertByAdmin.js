@@ -7,7 +7,6 @@ Template.insertByAdmin.onCreated(function () {
 
 Template.insertByAdmin.helpers({
     selectedCurrency: function (key) {
-        console.log(this.currency)
         return $('#currencySelect').val()
     },
 })
@@ -29,14 +28,18 @@ Template.insertByAdmin.events({
         userSalary.name = $('#iName').val();
         userSalary.salary840 = $('#i840Salary').val();
         userSalary.card980 = $('#i980Card').val();
-        userSalary.cash = $('#iCash').val();
+        if($('#iCash').val() !== '') {
+            userSalary.cash = $('#iCash').val();
+        } else{
+            userSalary.cash = 0
+        }
         userSalary.currencyCash = $('#currencySelect').val()
         userSalary.cash978 = $('#i978Cash').val();
 
         userSalary.dollToEurCurs = (parseFloat(userSalary.curs978) / parseFloat(userSalary.curs840)).toFixed(4);
         userSalary.dollToEurSalary = (userSalary.salary840 / userSalary.dollToEurCurs).toFixed(2);
 
-        var curr = 1;
+        var curr = 0;
 
         if ($('#currencySelect').val() === 980) {
             curr = 1;
