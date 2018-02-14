@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eeaa0e75-fb70-440e-95b1-f60d241103f1" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/client/admin/js/users/updateUserByAdmin.js" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/client/admin/html/users/updateUserByAdmin.html" afterPath="$PROJECT_DIR$/client/admin/html/users/updateUserByAdmin.html" />
-      <change beforePath="$PROJECT_DIR$/client/admin/js/users/addUserByAdmin.js" afterPath="$PROJECT_DIR$/client/admin/js/users/addUserByAdmin.js" />
+      <change beforePath="$PROJECT_DIR$/client/admin/html/salary/insertByAdmin.html" afterPath="$PROJECT_DIR$/client/admin/html/salary/insertByAdmin.html" />
+      <change beforePath="$PROJECT_DIR$/client/admin/js/salary/insertByAdmin.js" afterPath="$PROJECT_DIR$/client/admin/js/salary/insertByAdmin.js" />
+      <change beforePath="$PROJECT_DIR$/client/admin/js/salary/updateByAdmin.js" afterPath="$PROJECT_DIR$/client/admin/js/salary/updateByAdmin.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -31,21 +31,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="updateUserByAdmin.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/admin/html/users/updateUserByAdmin.html">
+      <file leaf-file-name="insertByAdmin.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/admin/html/salary/insertByAdmin.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="40" column="76" lean-forward="false" selection-start-line="40" selection-start-column="64" selection-end-line="40" selection-end-column="76" />
+            <state relative-caret-position="742">
+              <caret line="56" column="23" lean-forward="false" selection-start-line="56" selection-start-column="23" selection-end-line="56" selection-end-column="23" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="updateUserByAdmin.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/admin/js/users/updateUserByAdmin.js">
+      <file leaf-file-name="bootstrap.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/stylesheets/css/bootstrap.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="449">
-              <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+            <state relative-caret-position="258">
+              <caret line="1085" column="66" lean-forward="false" selection-start-line="1085" selection-start-column="58" selection-end-line="1085" selection-end-column="66" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="insertByAdmin.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/client/admin/js/salary/insertByAdmin.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="353">
+              <caret line="63" column="32" lean-forward="false" selection-start-line="63" selection-start-column="31" selection-end-line="63" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -54,58 +64,8 @@
       <file leaf-file-name="updateByAdmin.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/admin/js/salary/updateByAdmin.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="25" column="28" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="142" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="updateByAdmin.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/admin/html/salary/updateByAdmin.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="637">
-              <caret line="54" column="22" lean-forward="false" selection-start-line="50" selection-start-column="16" selection-end-line="54" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="addUserByAdmin.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/client/admin/js/users/addUserByAdmin.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="addUserByAdmin.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/admin/html/users/addUserByAdmin.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="48" lean-forward="true" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="48" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="insertByAdmin.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/admin/html/salary/insertByAdmin.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="629">
-              <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="insertByAdmin.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/admin/js/salary/insertByAdmin.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+            <state relative-caret-position="474">
+              <caret line="34" column="9" lean-forward="false" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -144,6 +104,8 @@
       <find>btn-defa</find>
       <find>at-btn</find>
       <find>btn</find>
+      <find>qqq</find>
+      <find>col-md-6</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -191,9 +153,6 @@
         <option value="$PROJECT_DIR$/client/admin/html/admin.html" />
         <option value="$PROJECT_DIR$/client/admin/html/salary/salaryView.html" />
         <option value="$PROJECT_DIR$/client/stylesheets/css/bootstrap.css" />
-        <option value="$PROJECT_DIR$/client/admin/js/salary/insertByAdmin.js" />
-        <option value="$PROJECT_DIR$/client/admin/js/salary/updateByAdmin.js" />
-        <option value="$PROJECT_DIR$/client/admin/html/salary/insertByAdmin.html" />
         <option value="$PROJECT_DIR$/client/admin/html/salary/deleteByAdmin.html" />
         <option value="$PROJECT_DIR$/client/admin/html/salary/updateByAdmin.html" />
         <option value="$PROJECT_DIR$/client/admin/html/users/addUserByAdmin.html" />
@@ -203,6 +162,9 @@
         <option value="$PROJECT_DIR$/client/admin/html/users/updateUserByAdmin.html" />
         <option value="$PROJECT_DIR$/client/admin/js/users/updateUserByAdmin.js" />
         <option value="$PROJECT_DIR$/client/admin/js/users/addUserByAdmin.js" />
+        <option value="$PROJECT_DIR$/client/admin/js/salary/updateByAdmin.js" />
+        <option value="$PROJECT_DIR$/client/admin/html/salary/insertByAdmin.html" />
+        <option value="$PROJECT_DIR$/client/admin/js/salary/insertByAdmin.js" />
       </list>
     </option>
   </component>
@@ -218,8 +180,8 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="8" />
-    <option name="y" value="37" />
+    <option name="x" value="13" />
+    <option name="y" value="62" />
     <option name="width" value="1733" />
     <option name="height" value="962" />
   </component>
@@ -256,53 +218,14 @@
               <item name="adminApplication" type="b2602c69:ProjectViewProjectNode" />
               <item name="adminApplication" type="462c0819:PsiDirectoryNode" />
               <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="stylesheets" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="adminApplication" type="b2602c69:ProjectViewProjectNode" />
               <item name="adminApplication" type="462c0819:PsiDirectoryNode" />
               <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="html" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="adminApplication" type="b2602c69:ProjectViewProjectNode" />
-              <item name="adminApplication" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="html" type="462c0819:PsiDirectoryNode" />
-              <item name="salary" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="adminApplication" type="b2602c69:ProjectViewProjectNode" />
-              <item name="adminApplication" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="html" type="462c0819:PsiDirectoryNode" />
-              <item name="users" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="adminApplication" type="b2602c69:ProjectViewProjectNode" />
-              <item name="adminApplication" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="adminApplication" type="b2602c69:ProjectViewProjectNode" />
-              <item name="adminApplication" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="salary" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="adminApplication" type="b2602c69:ProjectViewProjectNode" />
-              <item name="adminApplication" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="users" type="462c0819:PsiDirectoryNode" />
+              <item name="stylesheets" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="adminApplication" type="b2602c69:ProjectViewProjectNode" />
@@ -391,15 +314,15 @@
       <updated>1518161699737</updated>
       <workItem from="1518161720385" duration="376000" />
       <workItem from="1518162348944" duration="9122000" />
-      <workItem from="1518428550421" duration="28323000" />
+      <workItem from="1518428550421" duration="37124000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39552000" />
+    <option name="totallyTimeSpent" value="48353000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="8" y="37" width="1733" height="962" extended-state="0" />
+    <frame x="13" y="62" width="1733" height="962" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24985574" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -700,14 +623,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/stylesheets/css/bootstrap.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6189">
-          <caret line="2022" column="4" lean-forward="false" selection-start-line="2022" selection-start-column="1" selection-end-line="2022" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/admin/html/users/usersView.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -715,6 +630,54 @@
           <folding>
             <element signature="n#style#0;n#div#0;n#template#0;n#!!top" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/admin/html/users/addUserByAdmin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="48" lean-forward="false" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/admin/js/users/addUserByAdmin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="3" lean-forward="false" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/admin/html/salary/updateByAdmin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="637">
+          <caret line="54" column="22" lean-forward="false" selection-start-line="50" selection-start-column="16" selection-end-line="54" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/admin/js/users/updateUserByAdmin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="449">
+          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/admin/html/users/updateUserByAdmin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="40" column="76" lean-forward="false" selection-start-line="40" selection-start-column="64" selection-end-line="40" selection-end-column="76" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/admin/js/salary/updateByAdmin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="474">
+          <caret line="34" column="9" lean-forward="false" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -728,66 +691,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/admin/html/users/updateUserByAdmin.html">
+    <entry file="file://$PROJECT_DIR$/client/stylesheets/css/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="40" column="76" lean-forward="false" selection-start-line="40" selection-start-column="64" selection-end-line="40" selection-end-column="76" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/admin/js/users/updateUserByAdmin.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="449">
-          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/admin/js/salary/updateByAdmin.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="25" column="28" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="142" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/admin/html/salary/updateByAdmin.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="637">
-          <caret line="54" column="22" lean-forward="false" selection-start-line="50" selection-start-column="16" selection-end-line="54" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/admin/html/users/addUserByAdmin.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="48" lean-forward="true" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="48" />
+        <state relative-caret-position="258">
+          <caret line="1085" column="66" lean-forward="false" selection-start-line="1085" selection-start-column="58" selection-end-line="1085" selection-end-column="66" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/admin/html/salary/insertByAdmin.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+        <state relative-caret-position="742">
+          <caret line="56" column="23" lean-forward="false" selection-start-line="56" selection-start-column="23" selection-end-line="56" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/admin/js/salary/insertByAdmin.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/admin/js/users/addUserByAdmin.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        <state relative-caret-position="353">
+          <caret line="63" column="32" lean-forward="false" selection-start-line="63" selection-start-column="31" selection-end-line="63" selection-end-column="32" />
           <folding />
         </state>
       </provider>

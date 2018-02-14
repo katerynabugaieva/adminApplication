@@ -32,7 +32,7 @@ Template.updateByAdmin.events({
         var existData = Salary.findOne({number: $('#iNumUp').val()})
 
         var userSalary = {};
-        userSalary.name = 'qqq';
+       // userSalary.name = 'qqq';
 
         if (currentLis) {
             console.log('i am in')
