@@ -86,7 +86,7 @@ Template.updateByAdmin.events({
             }
 
             if($('#iCurrencyUp').val() !== '') {
-                userSalary.currencyCash = $('#iCurrencyUp').val();
+                userSalary.currencyCash = $('#currencySelectUp').val();
             }else {
                 userSalary.currencyCash = currentLis.currencyCash;
             }
@@ -98,11 +98,11 @@ Template.updateByAdmin.events({
             }
 
             var curr = 1;
-            if($('#iCurrencyUp').val() === '980'){
+            if ($('#currencySelect').val() === 980) {
                 curr = 1;
-            } else if($('#iCurrencyUp').val() === '978'){
-                curr = 2;
-            } else if ($('#iCurrencyUp').val() === ''){
+            } else if ($('#currencySelect').val() === 978) {
+                curr = parseFloat(userSalary.curs978) ;
+            } else if ($('#currencySelect').val() === '') {
                 curr = 0;
             }
 
@@ -139,5 +139,4 @@ console.log(userSalary)
         return false;
     }
     ,
-
 });

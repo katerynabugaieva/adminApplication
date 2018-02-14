@@ -5,6 +5,12 @@ Template.insertByAdmin.onCreated(function () {
     //   export default globalObject;
 })
 
+Template.insertByAdmin.helpers({
+    selectedCurrency: function (key) {
+        console.log(this.currency)
+        return $('#currencySelect').val()
+    },
+})
 Template.insertByAdmin.events({
     'click #submitSalary': function (e) {
         e.preventDefault();
@@ -24,20 +30,22 @@ Template.insertByAdmin.events({
         userSalary.salary840 = $('#i840Salary').val();
         userSalary.card980 = $('#i980Card').val();
         userSalary.cash = $('#iCash').val();
-        userSalary.currencyCash = $('#iCurrency').val();
+        userSalary.currencyCash = $('#currencySelect').val()
         userSalary.cash978 = $('#i978Cash').val();
 
         userSalary.dollToEurCurs = (parseFloat(userSalary.curs978) / parseFloat(userSalary.curs840)).toFixed(4);
         userSalary.dollToEurSalary = (userSalary.salary840 / userSalary.dollToEurCurs).toFixed(2);
 
         var curr = 1;
-        if ($('#iCurrency').val() === '980') {
+
+        if ($('#currencySelect').val() === 980) {
             curr = 1;
-        } else if ($('#iCurrency').val() === '978') {
-            curr = 2;
-        } else if ($('#iCurrency').val() === '') {
+        } else if ($('#currencySelect').val() === 978) {
+            curr = parseFloat(userSalary.curs978) ;
+        } else if ($('#currencySelect').val() === '') {
             curr = 0;
         }
+        console.log(curr)
         userSalary.cash980 = userSalary.salary840 * userSalary.curs840
             - userSalary.cash978 * userSalary.curs978
             - userSalary.card980
@@ -68,9 +76,6 @@ Template.insertByAdmin.events({
     },
 
     'change #iName': function () {
-        //      import globalObject from './insertByAdmin.js';
-        //   console.log(globalObject)
-
         var name = $('#iName').val();
         var existData = Salary.find({name: name}).fetch()
         console.log(existData)
@@ -79,12 +84,10 @@ Template.insertByAdmin.events({
             $('#i980Card').val(existData[existData.length-1].card980);
             $('#nameNB').text("Зарплата и карточные перечисления соответствуют фамилии. Если по этому сотруднику вводились разные данные, испольуется последние введенные. При необходимости изменяются вручную ")
         } else{
-            console.log('no')
             $('#i840Salary').val(0);
             $('#i980Card').val(0);
             $('#nameNB').text('')
         }
     }
-
 });
 
