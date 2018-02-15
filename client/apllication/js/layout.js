@@ -1,10 +1,11 @@
 Template.layout.helpers({
     name: function () {
-        // if (Customers.findOne({ id: Meteor.userId() })) {
-        //     let name = Customers.findOne({ id: Meteor.userId() }).username;
-        //     return name;
-        // }
-        // else
+        if (Customers.findOne({idMeteor: Meteor.userId()})) {
+            var name = Customers.findOne({idMeteor: Meteor.userId()}).name;
+            return name;
+        }
+        else
+
             return "User";
     },
     isAdmin: function() {

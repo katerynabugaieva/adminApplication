@@ -1,6 +1,3 @@
-/**
- * Created by 1000geeks on 30.01.17.
- */
 
 // Meteor.publish('customers', function() {
 //     return Customers.find({id: this.userId});
@@ -13,6 +10,7 @@ Meteor.publish('customers', function() {
 Meteor.publish('users', function() {
     return Meteor.users.find();
 });
+
 Meteor.publish('salary', function() {
     return Salary.find();
 });
@@ -22,3 +20,7 @@ Meteor.publish('workers', function() {
 });
 
 
+//
+// Meteor.publish('salary', function(author) {
+//     return Salary.find({name: author});
+// });

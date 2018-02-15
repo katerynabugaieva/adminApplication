@@ -6,7 +6,7 @@
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                         <span style="font-size:30px; color:#f7be23;"><img src="./logo_small.png"></span>
                     </button>
-                    <a class="navbar-brand hidden-xs hidden-sm" href="{{pathFor 'admin'}}"><span><img
+                    <a class="navbar-brand hidden-xs hidden-sm" href="{{pathFor 'workerView'}}"><span><img
                             src="./logo_small.png"></span></a>
                 </div>
 
@@ -24,11 +24,10 @@
                     {{#if isAdmin}}
                         <li>
                             <a href="{{pathFor 'admin'}}">admin</a>
-
                         </li>
-                        <!--<li>-->
-                        <!--<a href="{{pathFor 'container'}}">post</a>-->
-                        <!--</li>-->
+                        <li>
+                        <a href="{{pathFor 'workerView'}}">customer</a>
+                        </li>
                     {{/if}}
                     <li>
                         {{> atNavButton}}
