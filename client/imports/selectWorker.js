@@ -194,19 +194,19 @@ workers=[
     "Zambia",
     "Zimbabwe"
 ];
-
-export default function selectWorker(workers) {
-    var arr = [];
-    var i = 0;
-    //console.log('init country from import');
-    for (var worker in workers) {
-        var obj = {};
-        obj.value = workers[i];
-
-        obj.selected = "";
-        arr[i] = obj;
-        i += 1;
-    }
-    return arr;
-}
-
+//
+// export default function selectWorker(workers) {
+//     var arr = [];
+//     var i = 0;
+//     //console.log('init country from import');
+//     for (var worker in workers) {
+//         var obj = {};
+//         obj.value = workers[i];
+//
+//         obj.selected = "";
+//         arr[i] = obj;
+//         i += 1;
+//     }
+//     return arr;
+// }
+//

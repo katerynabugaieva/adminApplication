@@ -4,7 +4,7 @@ Template.deleteUserByAdmin.events({
         var data = parseInt($('#userForDelete').val());
         console.log(data)
         var currentLis;
-        currentLis = Workers.findOne({number: data});
+        currentLis = Customers.findOne({number: data});
         console.log(currentLis)
 
         if (currentLis) {
@@ -34,10 +34,10 @@ Template.deleteUserByAdmin.events({
         var data = parseInt($('#userForDelete').val());
         var currentLis;
 
-        currentLis = Workers.findOne({number: data});
+        currentLis = Customers.findOne({number: data});
         console.log(currentLis)
         if (currentLis) {
-            Workers.remove(currentLis._id);
+            Customers.remove(currentLis._id);
         }
         return false;
     }

@@ -4,7 +4,7 @@ Template.updateUserByAdmin.events({
         e.stopPropagation();
         var data = parseInt($('#userForUpdate').val());
         var currentLis;
-        currentLis = Workers.findOne({number: data});
+        currentLis = Customers.findOne({number: data});
 
         if (currentLis) {
             $('#isCorrectUserUp').text('запись найдена');
@@ -23,9 +23,9 @@ Template.updateUserByAdmin.events({
         console.log('in')
         var data = parseInt($('#userForUpdate').val());
         var currentLis;
-        currentLis = Workers.findOne({number: data});
+        currentLis = Customers.findOne({number: data});
 
-        var existData = Workers.findOne({number: $('#iNumUserUp').val()})
+        var existData = Customers.findOne({number: $('#iNumUserUp').val()})
 
         var user = {};
 
@@ -67,7 +67,7 @@ Template.updateUserByAdmin.events({
         }
 
             console.log(user)
-            Workers.update(currentLis._id, {$set: user}, function (error) {
+            Customers.update(currentLis._id, {$set: user}, function (error) {
                 if (error) {
                     alert(error.reason);
                 } else {

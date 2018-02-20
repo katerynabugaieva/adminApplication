@@ -26,5 +26,4 @@ accounts-base
 accounts-password
 useraccounts:iron-routing
 useraccounts:bootstrap
-mrt:accounts-ui-bootstrap-dropdown
 aldeed:tabular

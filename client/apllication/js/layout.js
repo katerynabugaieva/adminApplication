@@ -5,7 +5,6 @@ Template.layout.helpers({
             return name;
         }
         else
-
             return "User";
     },
     isAdmin: function() {

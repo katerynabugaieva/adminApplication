@@ -17,9 +17,28 @@
                 <div class="form-group">
                     <input type="number" step='any' class="form-control" id="i978Curs" placeholder="курс евро" required>
                 </div>
+                <!--<div class="form-group">-->
+                <!--<input type="text" class="form-control" id="iName" name="iName" placeholder="ФИО" data-toggle="dropdown" required> {{workers}}-->
+                <!--</div>-->
+
                 <div class="form-group">
-                    <input type="text" class="form-control" id="iName" name="iName" placeholder="ФИО" required>
+                    <label>qwertyuip</label>
+
+                    <select class="form-control" id="nationalitySelect" name="nationality">
+                        {{#each country in countryItems}}
+                            <option {{country.selected}}
+                                    value="{{country.value}}">  {{ country.value }} </option>
+                        {{/each}}
+                    </select>
                 </div>
+
+
+                <div class="form-group">
+                    <input type="text" class="form-control" id="iName" name="iName" placeholder="ФИО"
+                           data-toggle="dropdown" required>
+                </div>
+
+
                 <div class="form-group">
                     <input type="number" class="form-control" id="i840Salary" name="i840Salary"
                            placeholder="Сумма в долларах" required>
@@ -31,10 +50,10 @@
                 <div class="form-group">
                     <input type="number" class="form-control" id="iCash" name="iCash" placeholder="Аванс">
                 </div>
-                    <select class="form-control" id="currencySelect" name="currency">
-                        <option value="980" {{selectedCurrency "grn"}}>Валюта аванса гривна</option>
-                        <option value="978" {{selectedCurrency "eur"}}>Валюта аванса евро</option>
-                    </select>
+                <select class="form-control" id="currencySelect" name="currency">
+                    <option value="980" {{selectedCurrency "grn"}}>Валюта аванса гривна</option>
+                    <option value="978" {{selectedCurrency "eur"}}>Валюта аванса евро</option>
+                </select>
                 <div class="form-group">
                     <input type="number" class="form-control" id="i978Cash" name="i978Cash" placeholder="Евро к выдаче"
                            required>
@@ -51,9 +70,9 @@
     </div>
     <br/>
     <div class="col-md-4">
-        <label id="cursNB" ></label>
+        <label id="cursNB"></label>
     </div>
     <div class="col-md-4">
-        <label id="nameNB" ></label>
+        <label id="nameNB"></label>
     </div>
 </template>

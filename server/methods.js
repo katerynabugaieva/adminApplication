@@ -30,15 +30,16 @@ Meteor.methods({
                 );
 
                 Customers.insert({
-                   idMeteor: userId,
-                   name: 'Kate',
-                   surname: 'Bugaeiva',
-                   birthdate: '12.01.1988',
-                   email: 'sonnensmile@gmail.com',
-                   password: '123456',
-                   middlename: 'Anatolyevna',
+                  idMeteor: userId,
+                    number: 1,
+                    email: 'sonnensmile@gmail.com',
+                    surname: 'Bugaeiva',
+                    name: 'Kate',
+                   birthday: '12.01.1988',
                    datestart: '04-01-2017',
                    salary: '1000',
+                    password: '123456',
+                    middlename: 'Anatolyevna',
                    comments: 'murrr'
                 })
 
@@ -49,8 +50,7 @@ Meteor.methods({
             }
         }
         Meteor.call('addFirstUser')
-        Customers.find().fetch()
-
+      console.log(Customers.find().fetch())
     }
     ,
 
@@ -76,6 +76,9 @@ Meteor.methods({
         Workers.insert({
             number: 0
         })
+        // Customers.insert({
+        //     number:0
+        // })
     }
     ,
     showCustomers: function () {
