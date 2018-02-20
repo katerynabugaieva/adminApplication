@@ -11,17 +11,16 @@ Template.insertByAdmin.helpers({
     },
 
 
-    countryItems: function () {
+    workersItems: function () {
         import selectWorker from './selectNames.js'
 
         var workList = Customers.find().fetch();
 
-        var workers = []
+        var workers = ['Выберите работника']
 
         for (var i = 0; i < workList.length; i++) {
             workers.push(workList[i].surname);
         }
-
 
         var arrWorkers = selectWorker(workers);
 
@@ -116,7 +115,11 @@ Template.insertByAdmin.events({
             $('#i980Card').val(0);
             $('#nameNB').text('')
         }
-    }
+    },
+
+'change #workerSelect': function(){
+        console.log('q')
+}
 });
 
 

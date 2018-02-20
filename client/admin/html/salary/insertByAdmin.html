@@ -24,8 +24,8 @@
                 <div class="form-group">
                     <label>qwertyuip</label>
 
-                    <select class="form-control" id="nationalitySelect" name="nationality">
-                        {{#each country in countryItems}}
+                    <select class="form-control" id="workerSelect" name="nationality">
+                        {{#each country in workersItems}}
                             <option {{country.selected}}
                                     value="{{country.value}}">  {{ country.value }} </option>
                         {{/each}}

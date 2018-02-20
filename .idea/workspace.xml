@@ -2,26 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eeaa0e75-fb70-440e-95b1-f60d241103f1" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/client/admin/js/salary/selectNames.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/client/imports/selectWorker.js" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/meteor_packages_auto_import_browser.xml" afterPath="$PROJECT_DIR$/.idea/libraries/meteor_packages_auto_import_browser.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/.meteor/packages" afterPath="$PROJECT_DIR$/.meteor/packages" />
-      <change beforePath="$PROJECT_DIR$/.meteor/versions" afterPath="$PROJECT_DIR$/.meteor/versions" />
       <change beforePath="$PROJECT_DIR$/client/admin/html/salary/insertByAdmin.html" afterPath="$PROJECT_DIR$/client/admin/html/salary/insertByAdmin.html" />
-      <change beforePath="$PROJECT_DIR$/client/admin/html/users/addUserByAdmin.html" afterPath="$PROJECT_DIR$/client/admin/html/users/addUserByAdmin.html" />
-      <change beforePath="$PROJECT_DIR$/client/admin/html/users/userViewTable.html" afterPath="$PROJECT_DIR$/client/admin/html/users/userViewTable.html" />
       <change beforePath="$PROJECT_DIR$/client/admin/js/salary/insertByAdmin.js" afterPath="$PROJECT_DIR$/client/admin/js/salary/insertByAdmin.js" />
-      <change beforePath="$PROJECT_DIR$/client/admin/js/users/addUserByAdmin.js" afterPath="$PROJECT_DIR$/client/admin/js/users/addUserByAdmin.js" />
-      <change beforePath="$PROJECT_DIR$/client/admin/js/users/deleteUserByAdmin.js" afterPath="$PROJECT_DIR$/client/admin/js/users/deleteUserByAdmin.js" />
-      <change beforePath="$PROJECT_DIR$/client/admin/js/users/updateUserByAdmin.js" afterPath="$PROJECT_DIR$/client/admin/js/users/updateUserByAdmin.js" />
-      <change beforePath="$PROJECT_DIR$/client/apllication/html/layout.html" afterPath="$PROJECT_DIR$/client/apllication/html/layout.html" />
-      <change beforePath="$PROJECT_DIR$/client/apllication/js/layout.js" afterPath="$PROJECT_DIR$/client/apllication/js/layout.js" />
-      <change beforePath="$PROJECT_DIR$/client/view/js/workerView.js" afterPath="$PROJECT_DIR$/client/view/workerView.js" />
-      <change beforePath="$PROJECT_DIR$/lib/accounts/accounts.js" afterPath="$PROJECT_DIR$/lib/accounts/accounts.js" />
-      <change beforePath="$PROJECT_DIR$/lib/dataTables/dataTableUser.js" afterPath="$PROJECT_DIR$/lib/dataTables/dataTableUser.js" />
-      <change beforePath="$PROJECT_DIR$/lib/routing.js" afterPath="$PROJECT_DIR$/lib/routing.js" />
-      <change beforePath="$PROJECT_DIR$/server/methods.js" afterPath="$PROJECT_DIR$/server/methods.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -34,7 +17,31 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="insertByAdmin.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/admin/html/salary/insertByAdmin.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="26" column="59" lean-forward="false" selection-start-line="26" selection-start-column="59" selection-end-line="26" selection-end-column="59" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="insertByAdmin.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/client/admin/js/salary/insertByAdmin.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="488">
+              <caret line="120" column="22" lean-forward="false" selection-start-line="120" selection-start-column="22" selection-end-line="120" selection-end-column="22" />
+              <folding>
+                <element signature="e#174#223#0" expanded="false" />
+                <element signature="e#2492#3172#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -130,11 +137,11 @@
         <option value="$PROJECT_DIR$/lib/dataTables/dataTableUser.js" />
         <option value="$PROJECT_DIR$/client/admin/js/salary/selectNames.html" />
         <option value="$PROJECT_DIR$/client/admin/js/users/addUserByAdmin.js" />
-        <option value="$PROJECT_DIR$/client/admin/html/salary/insertByAdmin.html" />
-        <option value="$PROJECT_DIR$/client/admin/js/salary/insertByAdmin.js" />
         <option value="$PROJECT_DIR$/client/admin/js/salary/selectNames.js" />
         <option value="$PROJECT_DIR$/client/admin/js/users/updateUserByAdmin.js" />
         <option value="$PROJECT_DIR$/client/admin/js/users/deleteUserByAdmin.js" />
+        <option value="$PROJECT_DIR$/client/admin/html/salary/insertByAdmin.html" />
+        <option value="$PROJECT_DIR$/client/admin/js/salary/insertByAdmin.js" />
       </list>
     </option>
   </component>
@@ -194,6 +201,21 @@
               <item name="adminApplication" type="462c0819:PsiDirectoryNode" />
               <item name="client" type="462c0819:PsiDirectoryNode" />
               <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="html" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="adminApplication" type="b2602c69:ProjectViewProjectNode" />
+              <item name="adminApplication" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="html" type="462c0819:PsiDirectoryNode" />
+              <item name="salary" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="adminApplication" type="b2602c69:ProjectViewProjectNode" />
+              <item name="adminApplication" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -202,7 +224,7 @@
               <item name="client" type="462c0819:PsiDirectoryNode" />
               <item name="admin" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="users" type="462c0819:PsiDirectoryNode" />
+              <item name="salary" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="adminApplication" type="b2602c69:ProjectViewProjectNode" />
@@ -304,17 +326,18 @@
       <workItem from="1518162348944" duration="9122000" />
       <workItem from="1518428550421" duration="58670000" />
       <workItem from="1519107225763" duration="287000" />
-      <workItem from="1519112440418" duration="8391000" />
+      <workItem from="1519112440418" duration="9021000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="78577000" />
+    <option name="totallyTimeSpent" value="79207000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="34" y="34" width="1849" height="962" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17306653" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17306653" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -669,25 +692,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/admin/js/salary/insertByAdmin.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="21" column="19" lean-forward="false" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
-          <folding>
-            <element signature="e#174#223#0" expanded="false" />
-            <element signature="e#750#3855#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/admin/html/salary/insertByAdmin.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/admin/js/salary/selectNames.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -709,6 +713,25 @@
         <state relative-caret-position="525">
           <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/admin/html/salary/insertByAdmin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="59" lean-forward="false" selection-start-line="26" selection-start-column="59" selection-end-line="26" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/admin/js/salary/insertByAdmin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="488">
+          <caret line="120" column="22" lean-forward="false" selection-start-line="120" selection-start-column="22" selection-end-line="120" selection-end-column="22" />
+          <folding>
+            <element signature="e#174#223#0" expanded="false" />
+            <element signature="e#2492#3172#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
