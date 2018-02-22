@@ -14,7 +14,7 @@ Meteor.methods({
               if (Meteor.users.find().count() === 0 && Customers.find().count() === 0) {
             //if (Meteor.users.find().count()) {
                 userId = Accounts.createUser({
-                    email: 'sonnensmile@gmail.com',
+                    email: '1000geeks.com@gmail.com',
                     password: '123456',
                 });
 
@@ -32,21 +32,18 @@ Meteor.methods({
                 Customers.insert({
                   idMeteor: userId,
                     number: 1,
-                    email: 'sonnensmile@gmail.com',
-                    surname: 'Bugaeiva',
-                    name: 'Kate',
-                   birthday: '12.01.1988',
+                    email: '1000geeks.com@gmail.com',
+                    surname: 'Admin',
+                    name: 'Admin',
+                   birthday: '01.01.1988',
                    datestart: '04-01-2017',
                    salary: '1000',
                     password: '123456',
-                    middlename: 'Anatolyevna',
+                    middlename: 'Admin',
                    comments: 'murrr'
                 })
 
-                userId = Accounts.createUser({
-                    email: 'test@gmail.com',
-                    password: '123456',
-                });
+
             }
         }
         Meteor.call('addFirstUser')
@@ -73,9 +70,7 @@ Meteor.methods({
         Salary.insert({
             number: 0
         })
-        Workers.insert({
-            number: 0
-        })
+
         // Customers.insert({
         //     number:0
         // })

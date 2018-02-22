@@ -10,11 +10,13 @@
                 </div>
 
                 <div class="form-group">
+                    <label>Курс доллара</label>
                     <input type="number" step='any' class="form-control" id="i840Curs" placeholder="курс доллара"
                            required>
                 </div>
 
                 <div class="form-group">
+                    <label>Курс евро</label>
                     <input type="number" step='any' class="form-control" id="i978Curs" placeholder="курс евро" required>
                 </div>
                 <!--<div class="form-group">-->
@@ -22,7 +24,7 @@
                 <!--</div>-->
 
                 <div class="form-group">
-                    <label>qwertyuip</label>
+                    <label>Сотрудник</label>
 
                     <select class="form-control" id="workerSelect" name="nationality">
                         {{#each country in workersItems}}
@@ -33,17 +35,19 @@
                 </div>
 
 
-                <div class="form-group">
-                    <input type="text" class="form-control" id="iName" name="iName" placeholder="ФИО"
-                           data-toggle="dropdown" required>
-                </div>
+                <!--<div class="form-group">-->
+                    <!--<input type="text" class="form-control" id="iName" name="iName" placeholder="ФИО"-->
+                           <!--data-toggle="dropdown" required>-->
+                <!--</div>-->
 
 
                 <div class="form-group">
+                    <label>Сумма в долларах</label>
                     <input type="number" class="form-control" id="i840Salary" name="i840Salary"
                            placeholder="Сумма в долларах" required>
                 </div>
                 <div class="form-group">
+                    <label>Переведено на карточку грн</label>
                     <input type="number" step='any' class="form-control" id="i980Card" name="i980Card"
                            placeholder="Переведено на карточку">
                 </div>

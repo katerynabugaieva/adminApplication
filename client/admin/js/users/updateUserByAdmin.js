@@ -20,7 +20,6 @@ Template.updateUserByAdmin.events({
     'click #submitUserUp': function (e) {
         e.preventDefault();
         e.stopPropagation();
-        console.log('in')
         var data = parseInt($('#userForUpdate').val());
         var currentLis;
         currentLis = Customers.findOne({number: data});
@@ -30,16 +29,13 @@ Template.updateUserByAdmin.events({
         var user = {};
 
         if (currentLis) {
-            console.log('i am in')
             if ($('#iNumUserUp').val() !== '') {
                 //  if(existData){
                 //     $('#existData').show()
-                //      console.log(existData)
                 // userSalary.number = parseInt(existData.number);
                 //  }
                 //  else{
                 //      $('#existData').hide();
-                console.log(existData)
                 user.number = parseInt($('#iNumUserUp').val());
                 //  }
             }
@@ -66,12 +62,11 @@ Template.updateUserByAdmin.events({
                 user.comments = $('#iCommentUserUp').val();
         }
 
-            console.log(user)
             Customers.update(currentLis._id, {$set: user}, function (error) {
                 if (error) {
                     alert(error.reason);
                 } else {
-                    console.log('update');
+                  //  console.log('update');
                 }
             });
 

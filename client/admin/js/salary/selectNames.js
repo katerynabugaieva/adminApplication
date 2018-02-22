@@ -11,7 +11,7 @@ export default function selectWorker(workers) {
         arr[i] = obj;
         i += 1;
     }
-    console.log(workers)
+  //  console.log(workers)
     return arr;
 }
 

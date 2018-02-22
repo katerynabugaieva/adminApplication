@@ -4,10 +4,10 @@ Template.deleteByAdmin.events({
         // e.preventDefault();
         // e.stopPropagation()
         var data = parseInt($('#dataForDelete').val());
-        console.log(data)
+        //console.log(data)
         var currentLis;
         currentLis = Salary.findOne({number: data});
-        console.log(currentLis)
+        //console.log(currentLis)
 
         if (currentLis) {
             $('#isCorrectDel').text('data is found');
@@ -43,7 +43,7 @@ Template.deleteByAdmin.events({
         var currentLis;
 
         currentLis = Salary.findOne({number: data});
-        console.log(currentLis)
+       // console.log(currentLis)
         if (currentLis) {
             Salary.remove(currentLis._id);
         }

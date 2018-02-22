@@ -30,7 +30,7 @@ Template.updateByAdmin.events({
     'click #submitSalaryUp': function (e) {
         e.preventDefault();
         e.stopPropagation();
-        console.log('in')
+
         var data = parseInt($('#dataForUpdate').val());
         var currentLis;
         currentLis = Salary.findOne({number: data});
@@ -89,7 +89,6 @@ Template.updateByAdmin.events({
             //аванс
             if($('#iCashUp').val() !== '') {
                 userSalary.cash = $('#iCashUp').val();
-                console.log($('#iCashUp').val())
             }else{
                 userSalary.cash = currentLis.cash
             }
@@ -136,30 +135,30 @@ Template.updateByAdmin.events({
             // console.log('userSalary.cash * curr ' + userSalary.cash * curr)
             // console.log(curr)
 
-            console.log('840 Curs ' + userSalary.curs840 )
-            console.log('978 curs' + userSalary.curs978 )
-            console.log('cash980 ' + userSalary.cash980 )
-            console.log('card980 ' + userSalary.card980 )
-
-
-            console.log('userSalary.salary840 ' + userSalary.salary840 )
-            console.log('userSalary.curs840 ' + userSalary.curs840 )
-            console.log('userSalary.cash978 ' + userSalary.cash978 )
-            console.log('userSalary.curs978 ' + userSalary.curs978 )
-            console.log('userSalary.card980 ' + userSalary.card980 )
-            console.log('userSalary.cash ' + userSalary.cash)
-
-
-
-
-            console.log(userSalary)
+            // console.log('840 Curs ' + userSalary.curs840 )
+            // console.log('978 curs' + userSalary.curs978 )
+            // console.log('cash980 ' + userSalary.cash980 )
+            // console.log('card980 ' + userSalary.card980 )
+            //
+            //
+            // console.log('userSalary.salary840 ' + userSalary.salary840 )
+            // console.log('userSalary.curs840 ' + userSalary.curs840 )
+            // console.log('userSalary.cash978 ' + userSalary.cash978 )
+            // console.log('userSalary.curs978 ' + userSalary.curs978 )
+            // console.log('userSalary.card980 ' + userSalary.card980 )
+            // console.log('userSalary.cash ' + userSalary.cash)
+            //
+            //
+            //
+            //
+            // console.log(userSalary)
 
 
             Salary.update(currentLis._id, {$set: userSalary}, function (error) {
                 if (error) {
                     alert(error.reason);
                 } else {
-                    console.log('update');
+                   // console.log('update');
                 }
             });
 

@@ -2,10 +2,10 @@ Template.deleteUserByAdmin.events({
 
     'click #checkNumUserDel': function (e) {
         var data = parseInt($('#userForDelete').val());
-        console.log(data)
+     //   console.log(data)
         var currentLis;
         currentLis = Customers.findOne({number: data});
-        console.log(currentLis)
+     //   console.log(currentLis)
 
         if (currentLis) {
             $('#isCorrectUserDel').text('data is found');
@@ -35,7 +35,7 @@ Template.deleteUserByAdmin.events({
         var currentLis;
 
         currentLis = Customers.findOne({number: data});
-        console.log(currentLis)
+      //  console.log(currentLis)
         if (currentLis) {
             Customers.remove(currentLis._id);
         }

@@ -49,7 +49,8 @@ Template.insertByAdmin.events({
         userSalary.curs840 = $('#i840Curs').val();
         userSalary.curs978 = $('#i978Curs').val();
 
-        userSalary.name = $('#iName').val();
+        // userSalary.name = $('#iName').val();
+        userSalary.name = $('#workerSelect').val()
         userSalary.salary840 = $('#i840Salary').val();
         userSalary.card980 = $('#i980Card').val();
         if ($('#iCash').val() !== '') {
@@ -72,12 +73,12 @@ Template.insertByAdmin.events({
         } else if ($('#currencySelect').val() === '') {
             curr = 0;
         }
-        console.log(curr)
+      //  console.log(curr)
         userSalary.cash980 = userSalary.salary840 * userSalary.curs840
             - userSalary.cash978 * userSalary.curs978
             - userSalary.card980
             - userSalary.cash * curr;
-        console.log(userSalary)
+      //  console.log(userSalary)
 
         Salary.insert(userSalary);
         $('#cursNB').text('')
@@ -90,7 +91,6 @@ Template.insertByAdmin.events({
 
         var data = $('#iDate').val();
         var existData = Salary.find({date: data}).fetch()
-        console.log(existData)
         if (existData.length > 0) {
             $('#i840Curs').val(existData[0].curs840);
             $('#i978Curs').val(existData[0].curs978);
@@ -105,7 +105,7 @@ Template.insertByAdmin.events({
     'change #iName': function () {
         var name = $('#iName').val();
         var existData = Salary.find({name: name}).fetch()
-        console.log(existData)
+     //   console.log(existData)
         if (existData.length > 0) {
             $('#i840Salary').val(existData[existData.length - 1].salary840);
             $('#i980Card').val(existData[existData.length - 1].card980);
@@ -117,9 +117,21 @@ Template.insertByAdmin.events({
         }
     },
 
-'change #workerSelect': function(){
-        console.log('q')
-}
+    'change #workerSelect': function () {
+        var name = $('#workerSelect').val();
+     //   console.log(name)
+        var existData = Salary.find({name: name}).fetch()
+      //  console.log(existData)
+        if (existData.length > 0) {
+            $('#i840Salary').val(existData[existData.length - 1].salary840);
+            $('#i980Card').val(existData[existData.length - 1].card980);
+            $('#nameNB').text("Зарплата и карточные перечисления соответствуют фамилии. Если по этому сотруднику вводились разные данные, испольуется последние введенные. При необходимости изменяются вручную ")
+        } else {
+            $('#i840Salary').val(0);
+            $('#i980Card').val(0);
+            $('#nameNB').text('')
+        }
+    }
 });
 
 
