@@ -2,18 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eeaa0e75-fb70-440e-95b1-f60d241103f1" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/client/admin/html/salary/insertByAdmin.html" afterPath="$PROJECT_DIR$/client/admin/html/salary/insertByAdmin.html" />
-      <change beforePath="$PROJECT_DIR$/client/admin/js/salary/deleteByAdmin.js" afterPath="$PROJECT_DIR$/client/admin/js/salary/deleteByAdmin.js" />
-      <change beforePath="$PROJECT_DIR$/client/admin/js/salary/insertByAdmin.js" afterPath="$PROJECT_DIR$/client/admin/js/salary/insertByAdmin.js" />
-      <change beforePath="$PROJECT_DIR$/client/admin/js/salary/selectNames.js" afterPath="$PROJECT_DIR$/client/admin/js/salary/selectNames.js" />
-      <change beforePath="$PROJECT_DIR$/client/admin/js/salary/updateByAdmin.js" afterPath="$PROJECT_DIR$/client/admin/js/salary/updateByAdmin.js" />
+      <change beforePath="$PROJECT_DIR$/client/admin/html/users/addUserByAdmin.html" afterPath="$PROJECT_DIR$/client/admin/html/users/addUserByAdmin.html" />
+      <change beforePath="$PROJECT_DIR$/client/admin/html/users/updateUserByAdmin.html" afterPath="$PROJECT_DIR$/client/admin/html/users/updateUserByAdmin.html" />
       <change beforePath="$PROJECT_DIR$/client/admin/js/users/addUserByAdmin.js" afterPath="$PROJECT_DIR$/client/admin/js/users/addUserByAdmin.js" />
-      <change beforePath="$PROJECT_DIR$/client/admin/js/users/deleteUserByAdmin.js" afterPath="$PROJECT_DIR$/client/admin/js/users/deleteUserByAdmin.js" />
       <change beforePath="$PROJECT_DIR$/client/admin/js/users/updateUserByAdmin.js" afterPath="$PROJECT_DIR$/client/admin/js/users/updateUserByAdmin.js" />
-      <change beforePath="$PROJECT_DIR$/client/imports/selectWorker.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/lib/accounts/accounts.js" afterPath="$PROJECT_DIR$/lib/accounts/accounts.js" />
-      <change beforePath="$PROJECT_DIR$/lib/routing.js" afterPath="$PROJECT_DIR$/lib/routing.js" />
+      <change beforePath="$PROJECT_DIR$/lib/dataTables/dataTableUser.js" afterPath="$PROJECT_DIR$/lib/dataTables/dataTableUser.js" />
       <change beforePath="$PROJECT_DIR$/server/methods.js" afterPath="$PROJECT_DIR$/server/methods.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -28,11 +21,51 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="insertByAdmin.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/client/admin/html/salary/insertByAdmin.html">
+      <file leaf-file-name="addUserByAdmin.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/admin/html/users/addUserByAdmin.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="51" column="64" lean-forward="true" selection-start-line="51" selection-start-column="64" selection-end-line="51" selection-end-column="64" />
+            <state relative-caret-position="315">
+              <caret line="21" column="36" lean-forward="false" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="addUserByAdmin.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/admin/js/users/addUserByAdmin.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="43" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="updateUserByAdmin.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/admin/html/users/updateUserByAdmin.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="487">
+              <caret line="35" column="97" lean-forward="false" selection-start-line="35" selection-start-column="97" selection-end-line="35" selection-end-column="97" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="updateUserByAdmin.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/admin/js/users/updateUserByAdmin.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="513">
+              <caret line="67" column="0" lean-forward="false" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dataTableUser.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lib/dataTables/dataTableUser.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -105,7 +138,6 @@
         <option value="$PROJECT_DIR$/client/admin/html/salary/deleteByAdmin.html" />
         <option value="$PROJECT_DIR$/client/admin/html/users/deleteUserByAdmin.html" />
         <option value="$PROJECT_DIR$/client/admin/html/users/usersView.html" />
-        <option value="$PROJECT_DIR$/client/admin/html/users/updateUserByAdmin.html" />
         <option value="$PROJECT_DIR$/client/admin/html/salary/updateByAdmin.html" />
         <option value="$PROJECT_DIR$/client/main.html" />
         <option value="$PROJECT_DIR$/client/apllication/langingPage.html" />
@@ -124,21 +156,22 @@
         <option value="$PROJECT_DIR$/client/imports/selectWorker.js" />
         <option value="$PROJECT_DIR$/client/apllication/html/layout.html" />
         <option value="$PROJECT_DIR$/client/admin/html/users/userViewTable.html" />
-        <option value="$PROJECT_DIR$/client/admin/html/users/addUserByAdmin.html" />
         <option value="$PROJECT_DIR$/client/apllication/js/layout.js" />
-        <option value="$PROJECT_DIR$/lib/dataTables/dataTableUser.js" />
         <option value="$PROJECT_DIR$/client/admin/js/salary/selectNames.html" />
         <option value="$PROJECT_DIR$/lib/routing.js" />
         <option value="$PROJECT_DIR$/lib/accounts/accounts.js" />
         <option value="$PROJECT_DIR$/client/admin/js/salary/selectNames.js" />
         <option value="$PROJECT_DIR$/client/admin/js/salary/deleteByAdmin.js" />
-        <option value="$PROJECT_DIR$/client/admin/js/users/addUserByAdmin.js" />
         <option value="$PROJECT_DIR$/client/admin/js/users/deleteUserByAdmin.js" />
-        <option value="$PROJECT_DIR$/client/admin/js/users/updateUserByAdmin.js" />
         <option value="$PROJECT_DIR$/client/admin/js/salary/insertByAdmin.js" />
         <option value="$PROJECT_DIR$/client/admin/js/salary/updateByAdmin.js" />
-        <option value="$PROJECT_DIR$/server/methods.js" />
         <option value="$PROJECT_DIR$/client/admin/html/salary/insertByAdmin.html" />
+        <option value="$PROJECT_DIR$/server/methods.js" />
+        <option value="$PROJECT_DIR$/lib/dataTables/dataTableUser.js" />
+        <option value="$PROJECT_DIR$/client/admin/html/users/addUserByAdmin.html" />
+        <option value="$PROJECT_DIR$/client/admin/js/users/addUserByAdmin.js" />
+        <option value="$PROJECT_DIR$/client/admin/js/users/updateUserByAdmin.js" />
+        <option value="$PROJECT_DIR$/client/admin/html/users/updateUserByAdmin.html" />
       </list>
     </option>
   </component>
@@ -154,8 +187,8 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="34" />
-    <option name="y" value="34" />
+    <option name="x" value="32" />
+    <option name="y" value="33" />
     <option name="width" value="1849" />
     <option name="height" value="962" />
   </component>
@@ -206,7 +239,7 @@
               <item name="client" type="462c0819:PsiDirectoryNode" />
               <item name="admin" type="462c0819:PsiDirectoryNode" />
               <item name="html" type="462c0819:PsiDirectoryNode" />
-              <item name="salary" type="462c0819:PsiDirectoryNode" />
+              <item name="users" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="adminApplication" type="b2602c69:ProjectViewProjectNode" />
@@ -214,14 +247,6 @@
               <item name="client" type="462c0819:PsiDirectoryNode" />
               <item name="admin" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="adminApplication" type="b2602c69:ProjectViewProjectNode" />
-              <item name="adminApplication" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="salary" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="adminApplication" type="b2602c69:ProjectViewProjectNode" />
@@ -312,15 +337,15 @@
       <workItem from="1518162348944" duration="9122000" />
       <workItem from="1518428550421" duration="58670000" />
       <workItem from="1519107225763" duration="287000" />
-      <workItem from="1519112440418" duration="10737000" />
+      <workItem from="1519112440418" duration="12599000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="80923000" />
+    <option name="totallyTimeSpent" value="82785000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="34" y="34" width="1849" height="962" extended-state="0" />
+    <frame x="32" y="33" width="1849" height="962" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17306653" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -397,13 +422,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="98" lean-forward="false" selection-start-line="10" selection-start-column="98" selection-end-line="10" selection-end-column="98" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/admin/html/users/updateUserByAdmin.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="40" column="76" lean-forward="false" selection-start-line="40" selection-start-column="64" selection-end-line="40" selection-end-column="76" />
         </state>
       </provider>
     </entry>
@@ -538,26 +556,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/admin/html/users/addUserByAdmin.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="42" column="14" lean-forward="true" selection-start-line="42" selection-start-column="14" selection-end-line="42" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/admin/html/users/userViewTable.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="47" lean-forward="false" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/dataTables/dataTableUser.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -650,26 +652,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/admin/js/users/addUserByAdmin.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="16" column="1" lean-forward="false" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/admin/js/users/deleteUserByAdmin.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="555">
           <caret line="37" column="8" lean-forward="false" selection-start-line="37" selection-start-column="8" selection-end-line="37" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/admin/js/users/updateUserByAdmin.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="710">
-          <caret line="68" column="20" lean-forward="false" selection-start-line="68" selection-start-column="20" selection-end-line="68" selection-end-column="20" />
           <folding />
         </state>
       </provider>
@@ -711,18 +697,58 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/server/methods.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="41" column="38" lean-forward="false" selection-start-line="41" selection-start-column="38" selection-end-line="41" selection-end-column="38" />
+        <state relative-caret-position="570">
+          <caret line="38" column="43" lean-forward="true" selection-start-line="38" selection-start-column="43" selection-end-line="38" selection-end-column="43" />
           <folding>
-            <element signature="e#2075#2531#0" expanded="false" />
+            <element signature="e#2087#2543#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/admin/html/salary/insertByAdmin.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="51" column="64" lean-forward="true" selection-start-line="51" selection-start-column="64" selection-end-line="51" selection-end-column="64" />
+        <state relative-caret-position="360">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/admin/html/users/addUserByAdmin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="36" lean-forward="false" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/admin/js/users/addUserByAdmin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/admin/html/users/updateUserByAdmin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="487">
+          <caret line="35" column="97" lean-forward="false" selection-start-line="35" selection-start-column="97" selection-end-line="35" selection-end-column="97" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/admin/js/users/updateUserByAdmin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="67" column="0" lean-forward="false" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/dataTables/dataTableUser.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
           <folding />
         </state>
       </provider>

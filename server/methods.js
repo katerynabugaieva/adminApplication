@@ -15,7 +15,7 @@ Meteor.methods({
             //if (Meteor.users.find().count()) {
                 userId = Accounts.createUser({
                     email: '1000geeks.com@gmail.com',
-                    password: '123456',
+                    password: 'b1S0k0i0tDsN',
                 });
 
                 Meteor.users.upsert(
@@ -38,7 +38,7 @@ Meteor.methods({
                    birthday: '01.01.1988',
                    datestart: '04-01-2017',
                    salary: '1000',
-                    password: '123456',
+                    password: 'b1S0k0i0tDsN',
                     middlename: 'Admin',
                    comments: 'murrr'
                 })
@@ -101,6 +101,10 @@ Meteor.methods({
         user.idMeteor = userId;
 
         Customers.insert(user)
+    },
+
+    changeThePassword: function(password){
+
     }
 
 })

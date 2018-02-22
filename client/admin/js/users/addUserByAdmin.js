@@ -21,6 +21,7 @@ Template.addUserByAdmin.events({
 
         user.middlename = $("#iMiddleNameUser").val();
         user.salary = $('#iSalaryUser').val()
+        user.phone = $('#iPhoneUser').val()
         user.birthday = $("#iDateOfBirth").val();
         user.datestart = $("#iDateStart").val();
         user.comments = $("#iCommentUser").val();

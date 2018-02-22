@@ -52,6 +52,9 @@ Template.updateUserByAdmin.events({
             if($('#iMiddleNameUserUp').val() !== ''){
                 user.middlename = $('#iMiddleNameUserUp').val();
         }
+            if($('#iPhoneUserUp').val() !== ''){
+                user.phone = $('#iPhoneUserUp').val()
+            }
             if($('#iDateOfBirthUp').val() !== ''){
                 user.birthday = $('#iDateOfBirthUp').val();
         }
@@ -61,6 +64,7 @@ Template.updateUserByAdmin.events({
             if($('#iCommentUserUp').val() !== ''){
                 user.comments = $('#iCommentUserUp').val();
         }
+
 
             Customers.update(currentLis._id, {$set: user}, function (error) {
                 if (error) {
